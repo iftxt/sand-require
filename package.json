@@ -2,11 +2,18 @@
   "name": "sand-require",
   "version": "1.0.1",
   "description": "require modules as sandboxed objects",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "pretest": "standard",
     "test": "tap \"test/*.js\"",
     "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iftxt/sand-require.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iftxt/sand-require/issues"
   },
   "keywords": [],
   "author": "Daijiro Wachi",
