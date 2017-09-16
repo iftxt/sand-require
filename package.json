@@ -1,0 +1,19 @@
+{
+  "name": "sand-require",
+  "version": "1.0.0",
+  "description": "require modules as sandboxed objects",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "tap \"test/*.js\"",
+    "release": "standard-version"
+  },
+  "keywords": [],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "standard-version": "^4.2.0",
+    "tap": "^10.7.2"
+  }
+}
