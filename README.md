@@ -11,7 +11,7 @@ $ npm install --save sand-require
 
 ## Quick example
 ```js
-const sandRequire = require('../lib/')
+const sandRequire = require('sand-require')
 const http = sandRequire('http')
 
 console.log(http.STATUS_CODES['200'])
