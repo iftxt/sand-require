@@ -1,4 +1,4 @@
-# sand-require
+# sand-require [![Build Status](https://travis-ci.org/iftxt/sand-require.svg)](https://travis-ci.org/iftxt/sand-require)
 require modules as sandboxed objects
 
 ## What
